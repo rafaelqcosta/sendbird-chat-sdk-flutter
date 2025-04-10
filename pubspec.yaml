@@ -30,10 +30,7 @@ dependencies:
   web_socket_channel: '>=2.4.0 <4.0.0'
   universal_io: ^2.2.0
   async: ^2.10.0
-  isar:
-    git:
-      url: https://github.com/rafaelqcosta/isar.git
-      path: packages/isar
+  isar: ^3.1.0+1
   isar_flutter_libs:
     git:
       url: https://github.com/rafaelqcosta/isar.git
@@ -49,7 +46,4 @@ dev_dependencies:
   stack_trace: ^1.11.0
   json_serializable: ^6.6.2
   build_runner: ^2.3.3
-  isar_generator:
-    git:
-      url: https://github.com/rafaelqcosta/isar.git
-      path: packages/isar_generator
+  isar_generator: ^3.1.0+1
